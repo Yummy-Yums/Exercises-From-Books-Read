@@ -1,7 +1,7 @@
 # Exercises-From-Books-Read
 
 ### Date Detection 
-Answer - date_detection.py
+Answer - *date_detection.py*
 
 Write a regular expression that can detect dates in the DD/MM/YYYY for-
 mat. Assume that the days range from 01 to 31, the months range from 01
@@ -18,7 +18,7 @@ ible by 100, unless the year is also evenly divisible by 400. Note how this cal-
 culation makes it impossible to make a reasonably sized regular expression
 
 ### Strong Password Detection
-Answer - password_detection.py
+Answer - *password_detection.py*
 
 Write a function that uses regular expressions to make sure the password
 string it is passed is strong. A strong password is defined as one that is at
@@ -28,7 +28,7 @@ tiple regex patterns to validate its strength.
 
 
 ### Phone Number and Email Address
-Answer - phoneAndEmail.py
+Answer - *phoneAndEmail.py*
 
 Say you have the boring task of finding every phone number and email
 address in a long web page or document. If you manually scroll through
@@ -40,7 +40,7 @@ replace the text on the clipboard with just the phone numbers and email
 addresses it finds.
 
 ### Backing up a folder into a ZIP File
-Answer - backupToZip.py
+Answer - *backupToZip.py*
 
 Say you’re working on a project whose files you keep in a folder named
 *C:\AlsPythonBook*. You’re worried about losing your work, so you’d like
@@ -50,7 +50,7 @@ time it is made; for example, AlsPythonBook_1.zip, AlsPythonBook_2.zip,
 AlsPythonBook_3.zip, and so on.
 
 ### Renaming Files with American-Style Dates to European-Style Dates
-Answer - renameDates.py
+Answer - *renameDates.py*
 
 Say your boss emails you thousands of files with American-style dates
 (MM-DD-Y Y Y Y) in their names and needs them renamed to European-
@@ -59,7 +59,7 @@ hand!
 
 ### Mad Libs 
 
-Answer - mad_libs.py
+Answer - *mad_libs.py*
 
 Create a Mad Libs program that reads in text files and lets the user add their own text anywhere the word ADJECTIVE, NOUN, ADVERB, or VERB appears in the text file. For example, a text file may look like this:
 
@@ -86,7 +86,7 @@ The results should be printed to the screen and saved to a new text file
 
 ### Regex Search
 
-Answer - regex_search.py
+Answer - *regex_search.py*
 
 Write a program that opens all .txt files in a folder and searches for any
 line that matches a user-supplied regular expression. The results should
@@ -94,7 +94,7 @@ be printed to the screen.
 
 ### Generating Random Quiz Files
 
-Answer - randomQuizGenerator.py
+Answer - *randomQuizGenerator.py*
 
 Say you’re a geography teacher with 35 students in your class and you want to give a pop quiz on US state capitals. Alas, your class has a few bad eggs in it, and you can’t trust the students not to cheat. You’d like to randomize the order of questions so that each quiz is unique, making it impossible for anyone to crib answers from anyone else. Of course, doing this by hand would be a lengthy and boring affair. Fortunately, you know some Python.
 
@@ -106,6 +106,8 @@ question, in random order
 5. Writes the answer keys to 35 text files
 
 ###  Sandwich Maker
+Answer - *sandwich_maker.py*
+
 Write a program that asks users for their sandwich preferences. The pro-
 gram should use PyInputPlus to ensure that they enter valid input, such as:
 • Using inputMenu() for a bread type: wheat, white, or sourdough.
