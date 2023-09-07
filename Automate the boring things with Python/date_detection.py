@@ -6,9 +6,7 @@
 """
 
 import re
-from faker import Faker
-
-import re
+# from faker import Faker
 
 dateRegex = re.compile(r'''
     (0[1-9]|1[0-9]|2[0-9]|3[01])  # Day: 01-31

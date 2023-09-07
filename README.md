@@ -120,3 +120,24 @@ number is 1 or more.
 
 Come up with prices for each of these options, and have your program
 display a total cost after the user enters their selection.
+
+
+### 2048
+
+Answer - *2048.py*
+
+2048 is a simple game where you combine tiles by sliding them up, down,
+left, or right with the arrow keys. You can actually get a fairly high score
+by repeatedly sliding in an up, right, down, and left pattern over and over
+again. Write a program that will open the game at https://gabrielecirulli​
+.github.io/2048/ and keep sending up, right, down, and left keystrokes to
+automatically play the game.
+
+
+### Selective Copy
+
+Answer - *selective_copy.py*
+
+Write a program that walks through a folder tree and searches for files with
+a certain file extension (such as .pdf or .jpg). Copy these files from whatever
+location they are in to a new folder.
